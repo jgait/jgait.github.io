@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: JGait
+subtitle: Projects, Inventions, and Ideas
 email: jgait.eng@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,13 +24,13 @@ twitter_username: username
 github_username: jgait
 minimal_mistakes_skin: air
 search: true
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+atom_feed: hide
 
 include:
   - _pages
@@ -56,10 +57,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Jensen Gaither"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Taking a \"full stack\" approach to hardware"
   links:
+    - label: "Cambridge, MA"
+      icon: "fas fa-map-marker-alt"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jgait"
